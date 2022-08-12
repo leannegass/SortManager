@@ -22,7 +22,7 @@ public class PerformanceTest {
         int[] ans = sorter.sortArray(array);
         sorter.sortArray(array);
         long end = System.nanoTime();
-        System.out.println("MergeSort Took " + (end - start) + " milliseconds to sort");
+        System.out.println("MergeSort Took " + (end - start) + " nanoseconds to sort");
     }
 
 
@@ -32,7 +32,7 @@ public class PerformanceTest {
         long start = System.nanoTime();
         sorter.sortArray(array);
         long end = System.nanoTime();
-        System.out.println("BubbleSort Took " + (end - start) + " milliseconds to sort");
+        System.out.println("BubbleSort Took " + (end - start) + " nanoseconds to sort");
     }
 
     @Test
@@ -41,7 +41,7 @@ public class PerformanceTest {
         long start = System.nanoTime();
         sorter.sortArray(array);
         long end = System.nanoTime();
-        System.out.println("BinarySort Took " + (end - start) + " milliseconds to sort");
+        System.out.println("BinarySort Took " + (end - start) + " nanoseconds to sort");
     }
 
     @Test
@@ -50,6 +50,6 @@ public class PerformanceTest {
         long start = System.nanoTime();
         sorter.sortArray(array);
         long end = System.nanoTime();
-        System.out.println("InsertionSort Took " + (end - start) + " milliseconds to sort");
+        System.out.println("InsertionSort Took " + (end - start) + " nanoseconds to sort");
     }
 }
